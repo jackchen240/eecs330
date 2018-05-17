@@ -1,0 +1,89 @@
+/* 
+	Global classes 
+					*/
+body {
+	background-image: url("images/iphoneOL.jpg");
+	background-repeat: no-repeat;
+	font-family: Avenir, sans-serif;
+}
+
+img{
+	height: 150px;
+	width: 300px;
+}
+
+p{
+	padding: 0;
+	margin: 0;
+}
+
+
+#screen {
+	height: 530px;
+	width: 300px;
+	margin: 105px 23px;
+}
+
+#piechart{
+	width: 430px;
+	height: 300px;
+	display: block;
+	position: relative;
+	margin-left: -60px;
+	top: 5px;
+	
+}
+
+.head-bar {
+	height: 45px;
+  	width: 300px;
+  	background: #c2c2d6;
+  	text-align: center;
+  	text-shadow: 2px 2px 8px #ffc0cb;
+  	color: white;
+  	margin-top: -30px;
+}
+
+.cover{
+	height: 150px;
+	width: 300px;
+	margin: auto;
+}
+
+.menu-button {
+	position: relative;
+	float: middle;
+	left: 7px;
+	top: -60px;
+	width: 45px;
+	height: 25px;
+	border-style: solid;
+	border-color: white;
+	background: #c2c2d6;
+}
+
+
+.arrow{
+	position: relative;
+	top: -40px;
+	font-size: 32px;
+	color: #00ccff;
+	text-align: center;
+
+}
+
+.back-button{
+	position: relative;
+	bottom: 30px;
+	left: 10px;
+	width: 130px;
+	height: 45px;
+	border-style: solid;
+	border-color: white;
+	background: #c2c2d6;
+	display: inline-block;
+	text-align: center;
+}
+
+
+

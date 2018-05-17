@@ -1,0 +1,125 @@
+body {
+	background-image: url("images/iphoneOL.jpg");
+	background-repeat: no-repeat;
+	font-family: Avenir, sans-serif;
+}
+
+#screen {
+	height: 530px;
+	width: 300px;
+	margin: 135px 23px;
+}
+
+.head-bar {
+	height: 45px;
+  	width: 300px;
+  	background: #c2c2d6;
+  	text-align: center;
+  	text-shadow: 2px 2px 8px #ffc0cb;
+  	color: white;
+  	margin-top: -30px;
+}
+
+.menu-button {
+	position: relative;
+	float: middle;
+	left: 7px;
+	top: -60px;
+	width: 45px;
+	height: 25px;
+	border-style: solid;
+	border-color: white;
+	background: #c2c2d6;
+}
+
+#title-bar {
+	width: 100%;
+	border-bottom: 2px solid;
+	text-align: left;
+	font-size: 20px;
+	line-height: 40px;
+}
+
+.icon {
+	height: 30px;
+	position: relative;
+	top: 5px;
+	margin-left: 20px;
+	margin-right: 55px;
+}
+
+#graph-holder {
+	width: 100%;
+}
+
+.graphs {
+	width: 80%;
+	height: 200px;
+	display: none;
+	margin-left: 10%;
+}
+
+.prev {
+	cursor: pointer;
+	position: relative;
+	top: -144px;
+	width: auto;
+	margin-top: 0px;
+	padding: 12px;
+	color: #000;
+	font-weight: bold;
+	font-size: 18px;
+	float: left;
+}
+
+.next {
+	cursor: pointer;
+	position: relative;
+	top: -144px;
+	width: auto;
+	margin-top: 0px;
+	padding: 12px;
+	color: #000;
+	font-weight: bold;
+	font-size: 18px;
+	float: right;
+}
+
+.prev:hover, .next:hover {
+	background-color: #F0F0F0;
+}
+
+#dot-holder {
+	text-align: center;
+	width: 100%;
+	float: left;
+	margin-top: -48px;
+}
+.dot {
+	cursor: pointer;
+	height: 15px;
+	width: 15px;
+	margin: 0 2px;
+	background-color: #BBB;
+	border-radius: 50%;
+	display: inline-block;
+}
+
+.active, .dot:hover {
+	background-color: #717171;
+}
+
+.tips-header {
+	float: left;
+	width: 100%;
+	text-align: center;
+	margin-top: -20px;
+	border-bottom: 2px solid;
+}
+
+.tips-list {
+	float: left;
+	width: 100%;
+	height: 180px;
+	overflow: auto;
+}
