@@ -18,7 +18,6 @@ body {
   	color: #FFF;
   	margin-top: 0px;
   	line-height: 45px;
-  	text-align: center;
 }
 
 .head-text {
@@ -26,8 +25,6 @@ body {
     font-size: 2em;
     margin-top: 0.67em;
     margin-bottom: 0.67em;
-    margin-left: 0;
-    margin-right: 0;
     font-weight: bold;
 }
 
@@ -75,6 +72,12 @@ label {
 	text-align: center;
 }
 
+.cover{
+	height: auto;
+	width: 100%;
+	margin: auto;
+}
+
 #bill-info {
 	height: 150px;
 	width: 90%;
@@ -97,45 +100,28 @@ label {
 	float: left;
 	margin-top: 9.5px;
 	margin-left: 10.5px;
+	margin-right: 0px;
 	border: 1px solid #FFF;
 	color: #FFF;
+}
+
+.detail-head-text {
+	display: block;
+    font-size: 2em;
+    float: right;
+    width: 40%;
+    margin-right: 30%;
+    text-align: center;
+    font-weight: bold;
 }
 
 .icon {
 	height: 30px;
 	margin-top: 7.5px;
 	margin-left: 20px;
-	margin-right: 55px;
+	margin-right: 0px;
+	filter: invert(100%);
 }
-
-.cover{
-	height: auto;
-	width: 100%;
-	margin: auto;
-}
-
-.menu-button {
-	position: relative;
-	float: middle;
-	left: 7px;
-	top: -60px;
-	width: 45px;
-	height: 25px;
-	border-style: solid;
-	border-color: white;
-	background: #c2c2d6;
-}
-
-
-#title-bar {
-	width: 100%;
-	border-bottom: 2px solid;
-	text-align: left;
-	font-size: 20px;
-	line-height: 40px;
-}
-
-
 
 #graph-holder {
 	width: 100%;
@@ -203,14 +189,37 @@ label {
 	width: 100%;
 	text-align: center;
 	margin-top: -20px;
-	border-bottom: 2px solid;
+	border-top: 2px solid;
 }
 
 .tips-list {
 	float: left;
-	width: 100%;
-	height: 180px;
+	width: auto;
+	height: 204px;
+	margin-top: -10px;
+	border: 1px solid #808080;
 	overflow: auto;
 }
 
 
+
+/*
+.menu-button {
+	position: relative;
+	float: middle;
+	left: 7px;
+	top: -60px;
+	width: 45px;
+	height: 25px;
+	border-style: solid;
+	border-color: white;
+	background: #c2c2d6;
+}
+
+#title-bar {
+	width: 100%;
+	border-bottom: 2px solid;
+	text-align: left;
+	font-size: 20px;
+	line-height: 40px;
+}*/
