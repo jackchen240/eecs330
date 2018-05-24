@@ -14,7 +14,10 @@ google.load("visualization", "1", {packages:["corechart"]});
         view.setColumns([0, 2]);
 
         var options = {
-          title: 'Your Electricity Breakdown',
+          title: '1111',
+          titleTextStyle: {
+            alignment: 'center'
+          },
           backgroundColor:'transparent',
           fontSize: 16,
           legend:{
