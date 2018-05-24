@@ -26,6 +26,7 @@ body {
     margin-top: 0.67em;
     margin-bottom: 0.67em;
     font-weight: bold;
+    text-align: center;
 }
 
 #login-info {
