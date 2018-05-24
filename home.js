@@ -14,7 +14,7 @@ google.load("visualization", "1", {packages:["corechart"]});
         view.setColumns([0, 2]);
 
         var options = {
-          title: '1111',
+          title: 'Your Usage Breakdown',
           titleTextStyle: {
             alignment: 'center'
           },
