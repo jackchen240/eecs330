@@ -26,14 +26,21 @@
 			</div>
 		
 
-			<div class="tips-header"><h3>Energy Saving Tips</h3></div>
-			<div class="tips-list">
-				<ul>
-					<li>LED lightbulbs use 25% as much energy as traditional incandescent bulbs. Switching to LEDs can save lots of electricity!</li>
-					<li>It looks like you use lots of lighting during the day. Try turning off the lights and using natural lighting to save!</li>
-					<li>You use more electricity on lighting than your neighbors. Try using lamps if you don't need to light up the whole room.</li>
-				</ul>
-		</div>
+			<div class="tips-header">Energy Saving Tips</div>
+			
+			<form class="tips-list">
+				<input class="tip-inputs" type="checkbox" name="lighting1"><label class="tip-labels">
+					LED lightbulbs use 25% as much energy as traditional incandescent bulbs. Switch to LEDs!
+				</label>
+				<input class="tip-inputs" type="checkbox" name="lighting2"><label class="tip-labels">
+					During the daytime, try turning off the lights and using natural lighting.
+				</label>
+				<input class="tip-inputs" type="checkbox" name="lighting3"><label class="tip-labels">
+					Use lamps or other smaller lights if you don't need to light up the whole room.
+				</label>
+			</form>
+
+			<a class="tips-button" onclick="sendTips()">Share Tips</a>
 		<script src="lighting.js"></script>
 	</body>
 </html>

@@ -1,10 +1,12 @@
 // Global variables
 var slideIndex = 1;
+// sessionStorage.setItem("testVar", "test1")
 showSlides(slideIndex);
+// console.log(document.getElementsByClassName("tips-header"))
+var tips = ["<label class=\"tip-labels\">LED lightbulbs use 25% as much energy as traditional incandescent bulbs. Switch to LEDs!</label>", 
+	"<label class=\"tip-labels\">During the daytime, try turning off the lights and using natural lighting.</label>", 
+	"<label class=\"tip-labels\">Use lamps or other smaller lights if you don't need to light up the whole room.</label>"]
 
-function init() {
-
-}
 
 function plusSlides(n) {
 	showSlides(slideIndex += n);
@@ -36,3 +38,15 @@ function showSlides(n) {
 	dots[slideIndex - 1].className += " active"
 }
 
+function sendTips() {
+	var i;
+	var tipBoxes = document.getElementsByClassName("tip-inputs");
+	var tipOut = []
+
+	for (i = 0; i < tipBoxes.length; i++) {
+		if (tipBoxes[i].checked) {
+			tipOut.push(tips[i])
+		}
+	};
+	sessionStorage.setItem("tipList", tipOut);
+}

@@ -15,7 +15,7 @@ body {
 .head-bar {
 	height: 45px;
   	width: 300px;
-  	background: #c2c2d6;
+  	background: #9E9E9E;
   	color: #FFF;
   	margin-top: 0px;
   	line-height: 45px;
@@ -216,21 +216,62 @@ body {
 .tips-header {
 	float: left;
 	width: 100%;
+	height: 40px;
 	text-align: center;
 	margin-top: -20px;
+	font-weight: bold;
+	font-size: 1.17em;
+	line-height: 40px;
 	border-top: 2px solid;
 }
 
 .tips-list {
 	float: left;
-	width: auto;
-	height: 204px;
-	margin-top: -10px;
-	border: 1px solid #808080;
+	width: 100%;
+	height: 150px;
+	margin-top: 0px;
+	border-top: 1px solid #808080;
+	border-bottom: 1px solid #808080;
+	font-size: 1.2em;
 	overflow: auto;
 }
 
+.tip-inputs {
+	float: left;
+}
 
+.tip-labels {
+	margin-left: 20px;
+	display: block;
+}
+
+.tips-share {
+	width: 100px;
+	
+	float: left;
+}
+.tips-button {
+	width: 200px;
+	height: 50px;
+	color: #000;
+	border-radius: 10px;
+	background: #9E9E9E;
+	margin-top: -12px;
+	margin-left: 50px;
+	text-align: center;
+	font-size: 1.5em;
+	line-height: 50px;
+	float: left;
+}
+
+.tips-button:hover {
+	background: #8E8E8E;
+	cursor: pointer;
+}
+
+.tips-button:active {
+	background: #7E7E7E;
+}
 
 /*
 .menu-button {
