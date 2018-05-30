@@ -3,9 +3,9 @@ var slideIndex = 1;
 // sessionStorage.setItem("testVar", "test1")
 showSlides(slideIndex);
 // console.log(document.getElementsByClassName("tips-header"))
-var tips = ["<label class=\"tip-labels\">LED lightbulbs use 25% as much energy as traditional incandescent bulbs. Switch to LEDs!</label>", 
-	"<label class=\"tip-labels\">During the daytime, try turning off the lights and using natural lighting.</label>", 
-	"<label class=\"tip-labels\">Use lamps or other smaller lights if you don't need to light up the whole room.</label>"]
+var tips = ["LED lightbulbs use 25% as much energy as traditional incandescent bulbs. Switch to LEDs!", 
+	"During the daytime, try turning off the lights and using natural lighting.", 
+	"Use lamps or other smaller lights if you don't need to light up the whole room."]
 
 
 function plusSlides(n) {
