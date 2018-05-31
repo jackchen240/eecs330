@@ -1,1 +1,1 @@
-document.getElementsByClassName("input-bill")[1].value = sessionStorage.getItem("tipList");
+document.getElementsByClassName("text-tips")[0].value = sessionStorage.getItem("tipList");
