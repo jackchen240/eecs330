@@ -21,6 +21,19 @@ body {
   	line-height: 45px;
 }
 
+#login-head {
+	width: 100%;
+	height: 150px;
+	font-size: 2em;
+	line-height: 200px;
+}
+
+#ehome {
+	width: 80%;
+	margin-left: 10%;
+	margin-top: 70px;
+}
+
 .head-text {
 	display: block;
     font-size: 2em;
@@ -30,28 +43,23 @@ body {
     text-align: center;
 }
 
-#login-head {
-	width: 100%;
-	height: 150px;
-	font-size: 2em;
-	line-height: 200px;
-}
-
 #login-info {
-	width: 248px;
+	width: 100%;
 	height: 250px;
 	margin-top: 10px;
-	margin-left: 25px;
-	border: 1px solid black;
+	margin-left: auto;
+	margin-right: auto;
+	/* border: 1px solid black; */
 }
 
 .input {
-	width: 200px;
-	height: 30px;
-	margin-top: 20px;
-	margin-left: 24px;
-	overflow-wrap: auto;
+	width: 250px;
+	height: 33px;
+	margin-top: 30px;
+	margin-left: 25px;
+	margin-right: 25px;
 	overflow: auto;
+	font-size: 1.2em;
 }
 
 .input-email {
@@ -66,19 +74,21 @@ body {
 	height: 180px;
 	margin-top: 30px;
 	margin-left: 24px;
+	resize: none;
 }
 
 .login-button {
-	width: 200px;
+	width: 250px;
 	height: 50px;
 	color: #000;
 	text-decoration: none;
 	border-radius: 10px;
 	background: #AEAEAE;
-	margin-top: 20px;
-	margin-left: 24px;
+	margin-top: 50px;
+	margin-left: 25px;
 	text-align: center;
 	font-size: 1.5em;
+	font-weight: bold;
 	line-height: 50px;
 	float: left;
 }
@@ -86,7 +96,8 @@ body {
 #forgot {
 	width: 100%;
 	text-align: center;
-	margin-top: 10px;
+	margin-top: 30px;
+	font-size: 1.1em;
 	float: left;
 }
 
@@ -113,11 +124,19 @@ body {
 	margin: auto;
 }
 
-#bill-info {
-	height: 150px;
+.bill-info {
+	height: 187px;
 	width: 90%;
 	margin-left: 5%;
 	margin-right: 5%;
+}
+
+#bill-details {
+	position: relative;
+	top: -30px;
+	width: 100%;
+	text-align: center;
+	font-size: 1.1em;
 }
 
 #pie-title {
@@ -125,7 +144,7 @@ body {
 	text-align: center;
 	font-weight: bold;
 	font-size: 1.4em;
-	margin-top: 20px;
+	margin-top: 0px;
 }
 
 #piechart {
@@ -175,7 +194,9 @@ body {
 	width: 80%;
 	height: 200px;
 	display: none;
-	margin-left: 10%;
+	padding-left: 10%;
+	padding-right: 10%;
+	background-color: #FFF;
 }
 
 .prev {
@@ -211,8 +232,10 @@ body {
 #dot-holder {
 	text-align: center;
 	width: 100%;
+	height: 30px;
 	float: left;
 	margin-top: -48px;
+	background-color: #FFF;
 }
 .dot {
 	cursor: pointer;
@@ -252,11 +275,13 @@ body {
 }
 
 .tip-inputs {
+	width: 23px;
+	height: 18px;
 	float: left;
 }
 
 .tip-labels {
-	margin-left: 20px;
+	margin-left: 30px;
 	display: block;
 }
 
@@ -275,7 +300,9 @@ body {
 	margin-left: 50px;
 	text-align: center;
 	font-size: 1.5em;
+	font-weight: bold;
 	line-height: 50px;
+	text-decoration: none;
 	float: left;
 }
 
@@ -291,8 +318,8 @@ body {
 #share-text{
 	display: block;
 	font-size: 1.3em;
-	margin-top: 0.67em;
-	margin-bottom: 0.67em;
+	margin-top: 0px;
+	margin-bottom: 0px;
 	font-weight: bold;
 	text-align: center;
 }
@@ -303,10 +330,11 @@ body {
 	text-decoration: none;
 	border-radius: 10px;
 	background: #AEAEAE;
-	margin-top: 20px;
+	margin-top: 30px;
 	margin-left: 24px;
 	text-align: center;
-	font-size: 1em;
+	font-size: 1.5em;
+	font-weight: bold;
 	line-height: 40px;
 	float: left;
 }
@@ -318,24 +346,58 @@ body {
 	background: #909090;
 }
 
-
-/*
-.menu-button {
+#shared-popup {
+	width: 70%;
+	height: 30%;
+	background-color: #C0C0C0;
 	position: relative;
-	float: middle;
-	left: 7px;
-	top: -60px;
-	width: 45px;
-	height: 25px;
-	border-style: solid;
-	border-color: white;
-	background: #c2c2d6;
+	top: -42%;
+	left: 15%;
+	border-radius: 10px;
+	text-align: center;
 }
 
-#title-bar {
+.shared-home {
+	font-size: 1.2em;
+}
+
+#bill-history {
+	float: left;
 	width: 100%;
-	border-bottom: 2px solid;
-	text-align: left;
-	font-size: 20px;
+	height: 268px;
+	overflow: auto;
+}
+
+.bill-month {
+	float: left;
+	width: 80%;
+	height: 40px;
+	margin-left: 10%;
+	background-color: #D0D0D0;
+	margin-bottom: 20px;
+	text-decoration: none;
+	color: #000;
+	border-radius: 10px;
+}
+
+.bill-date {
+	float: left;
+	width: 50%;
+	margin-left: 10px;
+}
+
+.bill-arrow {
+	float: right;
 	line-height: 40px;
-}*/
+	margin-right: 10px;
+	margin-left: 10px;
+	font-weight: bold;
+}
+
+.bill-cost {
+	float: right;
+	line-height: 40px;
+	font-weight: bold;
+}
+
+

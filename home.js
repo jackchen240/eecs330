@@ -3,11 +3,11 @@ google.setOnLoadCallback(drawChart);
 function drawChart() {
 	var data = google.visualization.arrayToDataTable([
 	['Type', 'link','Kwh'],
-	['Fridge',  'lighting.html',   3.0],
-	['Computer',  'lighting.html',    2.0],
-	['Lighting',  'lighting.html',1.5],
-	['TV', 'lighting.html', 1.5],
-	['Microwave',   'lighting.html', 2.0]
+	['Fridge',  'lighting.html', 1.3],
+	['Computer',  'lighting.html', 1.5],
+	['Lighting',  'lighting.html', 1.8],
+	['TV', 'lighting.html', 1.4],
+	['Microwave',   'lighting.html', 0.9]
 	]);
 
 	var view = new google.visualization.DataView(data);
