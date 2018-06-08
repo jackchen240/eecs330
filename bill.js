@@ -3,12 +3,12 @@ google.charts.load("current", {packages:['corechart']});
     function drawChart() {
       var data = google.visualization.arrayToDataTable([
         ["Month", "Dollar", { role: "style" } ],
-        ["JAN", 41.22, 'color: #FFCC00'],
-        ["FEB", 39.70, 'color: #FFCC00'],
-        ["MAR", 33.39, 'color: #FFCC00'],
-        ["APR", 35.01, 'color: #FFCC00'],
-        ["MAY", 31.40, 'color: #FFCC00'],
-        ["JUN", 32.95, 'color: #FFCC00']
+        ["JAN", 43.22, 'color: #F2A10E'],
+        ["FEB", 42.75, 'color: #F2A10E'],
+        ["MAR", 39.39, 'color: #F2A10E'],
+        ["APR", 45.01, 'color: #F2A10E'],
+        ["MAY", 41.45, 'color: #F2A10E'],
+        ["JUN", 48.21, 'color: #F2A10E']
       ]);
 
       var view = new google.visualization.DataView(data);
@@ -41,6 +41,7 @@ google.charts.load("current", {packages:['corechart']});
           }
         },
         vAxis:{
+          title: 'Cost ($)',
           textStyle:{fontName: 'Montserrat'}
         },
 

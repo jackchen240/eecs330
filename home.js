@@ -18,11 +18,15 @@ function drawChart() {
 		titleTextStyle: { alignment: 'center' },
 		backgroundColor:'transparent',
 		fontSize: 16,
+
 		legend:{
 			alignment: 'center',
-			textStyle: { fontSize: 12 }
+			textStyle: { 
+				fontSize: 11, 
+				fontName: 'Montserrat' }
 		},
 		pieSliceText: 'percentage',
+		pieSliceTextStyle: { fontName: 'Montserrat' },
 		tooltip: {trigger: 'none'}
 	};
 
