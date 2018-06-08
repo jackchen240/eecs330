@@ -1,0 +1,46 @@
+<html>
+	<header>
+		
+		<link rel="stylesheet" type="text/css" href="styling.css"/>
+		<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	</header>
+	<body>
+		<div id="screen">
+			<div class="head-bar">
+          		<a class="back-arrow" href="home.html"><i class="material-icons">arrow_back</i></a>
+          		<img class="icon" src="images/computer-48.png">
+          		<div class="detail-head-text">Computer</div>
+			</div>
+			
+		
+			<img class="graphs" src="images/graph1.png">
+			<img class="graphs" src="images/graph2.png">
+			
+			<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+			<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+			<div id="dot-holder">
+				<span class="dot" onclick="currentSlide(1)"></span>
+				<span class="dot" onclick="currentSlide(2)"></span>
+			</div>
+		
+
+			<div class="tips-header">Energy Saving Tips</div>
+			
+			<form class="tips-list">
+				<input class="tip-inputs" type="checkbox" name="lighting1"><label class="tip-labels">
+					Let it sleep a little when you are not using it.
+				</label>
+				<input class="tip-inputs" type="checkbox" name="lighting2"><label class="tip-labels">
+					Adjust the brightness. You can probably see without maximum brightness.
+				</label>
+				<input class="tip-inputs" type="checkbox" name="lighting3"><label class="tip-labels">
+					The latest generation comes with more power and less electricity!
+				</label>
+			</form>
+
+			<a class="tips-button" href="computer_sharing.html" onclick="sendTips()">Share Tips</a>
+		<script src="computer.js"></script>
+	</body>
+</html>

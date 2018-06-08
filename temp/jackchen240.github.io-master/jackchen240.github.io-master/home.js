@@ -6,8 +6,8 @@ function drawChart() {
 	['Fridge',  'fridge.html', 1.3],
 	['Computer',  'computer.html', 1.5],
 	['Lighting',  'lighting.html', 1.8],
-	['TV', 'tv.html', 1.4],
-	['Microwave',   'microwave.html', 0.9]
+	['TV', 'TV.html', 1.4],
+	['Microwave',   'micro.html', 0.9]
 	]);
 
 	var view = new google.visualization.DataView(data);
@@ -20,9 +20,14 @@ function drawChart() {
 		fontSize: 16,
 		legend:{
 			alignment: 'center',
-			textStyle: { fontSize: 12 }
+			textStyle: { fontSize: 11,
+				fontName: 'Montserrat'}
 		},
 		pieSliceText: 'percentage',
+		pieSliceTextStyle:{
+			fontName: 'Montserrat'
+		},
+		
 		tooltip: {trigger: 'none'}
 	};
 

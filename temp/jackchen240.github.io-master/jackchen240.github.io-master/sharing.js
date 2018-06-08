@@ -1,0 +1,2 @@
+document.getElementsByClassName("text-tips")[0].value = sessionStorage.getItem("tipList").replace(/\S,\S/g, function (x) { return x[0] + "\n" + x[2]})
+// console.log(sessionStorage.getItem("tipList").replace(/\S,\S/g, function (x) { return x[0] + "\n" + x[2]}));

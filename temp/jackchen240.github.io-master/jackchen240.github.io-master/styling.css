@@ -2,7 +2,7 @@
 body {
 	background-image: url("images/iphoneOL.jpg");
 	background-repeat: no-repeat;
-	font-family: Calibri, sans-serif;
+	font-family: 'Montserrat', sans-serif;
 }
 
 #screen {
@@ -27,6 +27,17 @@ body {
 	font-size: 2em;
 	line-height: 200px;
 }
+
+#chart_div{
+	margin-top: -40px;
+	
+}
+
+.pdfpdf{
+	width:300px;
+	height: 500px;
+}
+
 
 #ehome {
 	width: 80%;
@@ -83,7 +94,7 @@ body {
 	color: #000;
 	text-decoration: none;
 	border-radius: 10px;
-	background: #AEAEAE;
+	background: #d2d2d2;
 	margin-top: 50px;
 	margin-left: 25px;
 	text-align: center;
@@ -268,7 +279,6 @@ body {
 	width: 100%;
 	height: 150px;
 	margin-top: 0px;
-	margin-bottom: 0px;
 	border-top: 1px solid #808080;
 	border-bottom: 1px solid #808080;
 	font-size: 1.2em;
@@ -296,8 +306,8 @@ body {
 	height: 50px;
 	color: #000;
 	border-radius: 10px;
-	background: #AEAEAE;
-	margin-top: 7px;
+	background: #d2d2d2;
+	margin-top: -12px;
 	margin-left: 50px;
 	text-align: center;
 	font-size: 1.5em;
@@ -330,7 +340,7 @@ body {
 	color: #000;
 	text-decoration: none;
 	border-radius: 10px;
-	background: #AEAEAE;
+	background: #d2d2d2;
 	margin-top: 30px;
 	margin-left: 24px;
 	text-align: center;
@@ -365,7 +375,7 @@ body {
 #bill-history {
 	float: left;
 	width: 100%;
-	height: 285px;
+	height: 268px;
 	overflow: auto;
 }
 
@@ -374,7 +384,7 @@ body {
 	width: 80%;
 	height: 40px;
 	margin-left: 10%;
-	background-color: #D0D0D0;
+	background-color: #d2d2d2;
 	margin-bottom: 20px;
 	text-decoration: none;
 	color: #000;
@@ -401,9 +411,4 @@ body {
 	font-weight: bold;
 }
 
-
-.bill-pdf {
-	width: 100%;
-	height: 422px;
-}
 

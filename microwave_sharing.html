@@ -6,21 +6,17 @@
 	<body>
 		<div id="screen">
 			<div class="head-bar">
-          		<a class="back-arrow" href="lighting.html"><i class="material-icons">arrow_back</i></a>
-          		<!-- <img class="icon" src="images/share.png"> -->
+          		<a class="back-arrow" href="microwave.html"><i class="material-icons">arrow_back</i></a>
+          		
           		<div class="detail-head-text" style="width:60%; margin-right:20%">Share Tips</div>
       			
       		</div>
-			<!--
-			<div id="share-text">
-				 Share your tips!
-			</div>
-		-->
 			
-			<input class="input-email" type="text" name="subject" placeholder="Subject">
 			<input class="input-email" type="text" name="email" placeholder="Email Address">
+			<input class="input-email" type="text" name="subject" placeholder="Subject">
+			
 			<textarea class="text-tips" type="text" name="message" placeholder="Enter Message"></textarea>
-			<a class="share-button" href="tips_shared.html">Share!</a>
+			<a class="share-button" href="tips_shared.html" onclick="share()">Share!</a>
 
 		<script src="sharing.js"></script>
 	</body>

@@ -1,0 +1,46 @@
+<html>
+	<header>
+		
+		<link rel="stylesheet" type="text/css" href="styling.css"/>
+		<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	</header>
+	<body>
+		<div id="screen">
+			<div class="head-bar">
+          		<a class="back-arrow" href="home.html"><i class="material-icons">arrow_back</i></a>
+          		<img class="icon" src="images/tv-48.png">
+          		<div class="detail-head-text">Television</div>
+			</div>
+			
+		
+			<img class="graphs" src="images/graph1.png">
+			<img class="graphs" src="images/graph2.png">
+			
+			<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+			<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+			<div id="dot-holder">
+				<span class="dot" onclick="currentSlide(1)"></span>
+				<span class="dot" onclick="currentSlide(2)"></span>
+			</div>
+		
+
+			<div class="tips-header">Energy Saving Tips</div>
+			
+			<form class="tips-list">
+				<input class="tip-inputs" type="checkbox" name="tv1"><label class="tip-labels">
+					Turn off the TV when you are not watching.
+				</label>
+				<input class="tip-inputs" type="checkbox" name="tv2"><label class="tip-labels">
+					Watch shows from your laptop sometimes!
+				</label>
+				<input class="tip-inputs" type="checkbox" name="tv3"><label class="tip-labels">
+					Lower the brightness on your TV.
+				</label>
+			</form>
+
+			<a class="tips-button" href="tv_sharing.html" onclick="sendTips()">Share Tips</a>
+		<script src="tv.js"></script>
+	</body>
+</html>
